@@ -1,0 +1,1 @@
+<% Set Pdf = Server.CreateObject("Persits.Pdf")Response.Write Pdf.Expires%>

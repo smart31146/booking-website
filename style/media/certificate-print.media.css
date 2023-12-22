@@ -1,0 +1,24 @@
+@media print {
+  .print-heading {
+    display: block;
+  }
+
+  .print-heading__logo {
+    width:100px
+  }
+
+  .certificate-page__content {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .certificate-page__right {
+    font-size: 16px;
+    color: #000;
+  }
+
+  .certificate-page__right * {
+    font-size: inherit !important;
+    color: inherit;
+  }
+}

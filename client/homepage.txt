@@ -1,0 +1,13 @@
+###welcome_start###Your response to the launch of the BBG has been tremendous. I've been delighted to receive the positive feedback from across our business groups. But we haven't stopped - we've only just started! <br><br>
+<P align=right>X Y, the director</p>###welcome_end###
+###welcome1_start###NA###welcome1_end###
+###welcome2_start###NA###welcome2_end###
+###focus1_start###For quick search and easy reference - all you need to know in an instant. Check out the <b>key points</b> and <b>examples</b> in the right hand panel. Take a quick test with <b>Q&As</b>. If you have a specific question, use the powerful <b>search</b> function above, or in the right hand panel on each page. To <b>start</b> using the Guide simply choose a subject from below.###focus1_end###
+###focus1_icon_start###jw.gif###focus1_icon_end###
+###focus1_url_start###../_bbg/index.asp?ID_subject_prm=1&ID_topic_prm=3#7###focus1_url_end###
+###focus2_start###Training is your pathway to a complete, practical understanding of the key topics. To <b>start</b> Training choose a subject from below. Do the whole subject or, if pressed for time, choose individual topics. When you’ve finished your Training subject, you should do the Quiz to test what you’ve learned.###focus2_end###
+###focus2_icon_start###tap.gif###focus2_icon_end###
+###focus2_url_start###_bbg/index.asp###focus2_url_end###
+###focus3_start###How much do you really know? Do the Quiz and obtain your results. We recommend that you complete Training before attempting the Quiz. If you are ready to test yourself, you can <b>start</b> the Quiz by choosing from one of the subjects below.###focus3_end###
+###focus3_icon_start###NA###focus3_icon_end###
+###focus3_url_start###NA###focus3_url_end###

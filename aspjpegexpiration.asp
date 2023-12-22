@@ -1,0 +1,1 @@
+<% Set Jpeg = Server.CreateObject("Persits.Jpeg")response.write Jpeg.Expires%>

@@ -1,0 +1,66 @@
+ul {
+    padding-left: 1em;
+}
+ul li {
+    margin: 12px 0;
+}
+h2 {
+    font-weight:bold;
+    margin : 12px 0;
+    cursor : pointer;
+}
+.nojump h2 {
+    margin: 0;
+}
+.nojump ul li {
+    margin: 0;
+}
+
+
+body {
+    
+    font-family: Verdana, Arial, sans-serif;
+}
+h1 {
+    font-size: 125%;
+    font-weight: bold;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+}
+.accordion .ui-accordion-header {
+    margin:0;
+}
+
+.container{
+margin: 0px;
+margin-top:20px;
+}
+.table-responsive table{
+text-align:center;
+}
+.accordion button{
+width:250px;
+}
+#section1 .container{
+margin-top:10px;
+}
+#section1{
+margin-top:50px;
+text-align:center;
+
+}
+#section2{
+margin-top:10px;
+text-align:center;
+}
+.focus_text{
+font-size:12px;
+}
+.table-responsive{
+border: 0px solid black;
+}
+.msg{
+text-align:center;
+margin-top:20px;
+}

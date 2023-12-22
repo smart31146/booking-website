@@ -1,0 +1,211 @@
+/* 
+CREATED BY JOHAN BREDENHOLT JANUARI 2007
+*/
+
+
+INPUT, BLOCKQUOTE, BODY, CAPTION, CENTER, DD, DIR, DIV, DL, DT, FORM, H1, H2, H3, H4, H5, H6, MENU, OL, P, TD, TH, UL {
+font-family: Arial;
+font-size: 12px;
+color: #000000;
+}
+/* ^^^^^^^^^^^^^^^^^^^^ BODY ^^^^^^^^^^^^^^^^^^^^*/
+body {
+
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-color: #FFFFFF;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.quizbody {
+background-image: url(http://intranet/bbpdemo/client/_client_quiz_back.gif);
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-color: #ffffff;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px
+}
+.qandabody { background-attachment: scroll;
+background-color: #FFFFFF;
+background-image: url(../_qanda/images/toucan.gif);
+background-repeat: no-repeat;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px }
+.bodyprivacy {
+background-image: none;
+background-attachment: scroll;
+background-color: #FFFFFF;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.bodyresults{
+background-image: none;
+background-attachment: scroll;
+background-color: #FFFFFF;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.centerposition{
+
+  margin-left: 10vh;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 600px;
+  height: 100px;
+  margin-left: -275px;
+  margin-top: -50px;
+  }
+
+
+/* ^^^^^^^^^^^^^^^^^^^^ DIV LAYERS ^^^^^^^^^^^^^^^^^^^^*/
+.mainanimatied 		{ RIGHT: 10px; z-index:1; POSITION: absolute; TOP: 35px; display:yes; }
+.mainlogo 			{ LEFT: 30px; z-index:3; POSITION: absolute; TOP: 45px }
+.mainheading 		{ LEFT: 258px; z-index:2; POSITION: absolute; TOP: 60px }
+.divquizheading 	{ LEFT: 45px; z-index:4; POSITION: absolute; top: 55px }
+.quizlogoindex 		{ LEFT: 5px; z-index:4; POSITION: absolute; bottom: 30px }
+.traininglogo 		{ RIGHT: 50px; z-index:4; POSITION: absolute; TOP: 45px }
+.trainingheader 	{ LEFT: 200px; z-index:2; POSITION: absolute; TOP: 45px }
+
+/* ^^^^^^^^^^^^^^^^^^^^ HEADING ^^^^^^^^^^^^^^^^^^^^*/
+.home_heading 		{ color: #777676; font-size: 220%; 						}
+.headers 			{ color: #777676; font-size: 180%; font-weight: none;	}
+.bbgtopic 			{ color: #777676; padding:20 4 20 60; font-size: 140%; font-weight: normal}
+.quizhome_heading 	{ color: #777676; line-height: 200%; font-size: 140%;}
+
+/* ^^^^^^^^^^^^^^^^^^^^ LINKS ^^^^^^^^^^^^^^^^^^^^*/
+a 					{ color: #AC4057; text-decoration: none; font-weight: bold; 		}
+a:hover 			{ color: #000000; text-decoration: none; font-weight: bold; 		}
+a.guide 			{ color: #AC4057; text-decoration: none; font-weight: bold; 		}
+a.guide:hover 		{ color: #333366; text-decoration: underline; font-weight: bold; 	}
+a.return 			{ color: #AC4057; text-decoration: none; font-weight: bold; 		}
+a.return:hover 		{ color: #333366; text-decoration: underline; font-weight: bold;	}
+
+/* ^^^^^^^^^^^^^^^^^^^^ BUTTONZ ^^^^^^^^^^^^^^^^^^^^*/
+.buttonz1 			{ color: #FFFFFF; background-color: #846E74; border: 1px #0E8610 ridge; font-size: 11px; font-weight: bold; height:20; cursor: hand; SCROLLBAR-FACE-COLOR: #FFFFCC; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFCC; SCROLLBAR-SHADOW-COLOR: #FFFF99; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR: #FF9900; SCROLLBAR-TRACK-COLOR: #FFFFCC; SCROLLBAR-DARKSHADOW-COLOR: #FFCC66;}
+.toptab 			{ background-color: #000000;}
+.text_left 			{ color: #333366; font-size: 11px; }
+.focus_text 		{ color: #333366; }
+
+
+/* ^^^^^^^^^^^^^^^^^^^^ _BBG LINKS ^^^^^^^^^^^^^^*/
+.subjects 			{ color: #999999; font-weight: bold; font-style: normal}
+a.subjects 			{ color: #AC4057; font-weight: bold; font-style: normal}
+a.subjects:hover 	{ color: #777676; text-decoration: underline; font-style: normal}
+
+/* ^^^^^^^^^^^^^^^^^^^^ _BBG ^^^^^^^^^^^^^^^^^^^^*/
+ul 					{margin-left: 20px}
+about_header		{ color: #CC0000; padding-left:2px; font-size: 24px; font-weight: bold}
+.topics 			{ color: #000000; font-size: 11px; font-weight: bold;}
+a.topics 			{ color: #000000; font-size: 11px; font-weight: normal; font-style: normal}
+a.topics:hover 		{ color: #000000; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: underline;}
+.copyright 			{ color: #ffffff; font-size: 9px;}
+.faqq 				{ color: #CC0000; font-size: 14px; font-weight: bolder;}
+.topic 				{ color: #000000; font-size: 16px; font-weight: bolder;}
+.guide_button 		{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #004679 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_button_over 	{ color: #FFFFFF; background-color: #333366; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #004679 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_button_out 	{ color: #FFFFFF; background-color: #333366;  margin: 3px 0 0 0 ; border: 1px #004679 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_button 		{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #FFFFFF ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_button_over 	{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #000000 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_button_out 	{ color: #FFFFFF; background-color: #846E74;  margin: 3px 0 0 0 ; border: 1px #FFFFFF ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.guide_top_row 		{ background-color:000000}
+
+/* ^^^^^^^^^^^^^^^^^^^^ _BBG FEEDBACK ^^^^^^^^^^^^^^^^^^^^*/
+.fbheader 			{ color: #333366; padding:2 4 2 6; font-size: 22pt; font-weight: bold}
+.fb_small 			{ color: #000000; padding:2 4 2 6; font-size: 11pt; font-weight: normal}
+
+/* ^^^^^^^^^^^^^^^^^^^^ _SEARCH ^^^^^^^^^^^^^^^^^^^^*/
+.searchresults 		{ color: #777676;  font-size: 190%; font-weight: bold}
+.search_hl 			{ color: #FFFFFF; background-color: #846E74}
+
+/* ^^^^^^^^^^^^^^^^^^^^ _BBG TABS STYLESHEET ^^^^^^^^^^^^^^^^^^^^*/
+.tabstext 			{ color: #333333; font-size: 9px;  }
+.tabstext UL 		{ font-size: 9px; margin-left: 15px; }
+.tabstext a 		{ color: #000000; font-size: 9px; font-weight: bold; text-decoration: none }
+.tabstext a:hover 	{ color: #000000; font-size: 9px; text-decoration: underline; font-weight: bold}
+
+.tabtext 			{ background-color: #F0f0f0; background-image: url(images/bg_layer.gif); border: 1px #EBEBEB solid}
+.kp_tab 			{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+.exmp_tab 			{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+.subj_tab 			{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+.help_tab 			{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+.search_tab 		{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+.faq_tab 			{ background-color: #F0f0f0; background-image: url(../_bbg/images/bg_layer.gif); border: 1px #EBEBEB solid}
+
+/* ^^^^^^^^^^^^^^^^^^^^ _TRAINING ^^^^^^^^^^^^^^^^^^^^*/
+.highlight_bck 			{ background-color: #FFFFFF}
+.highlight_bck1 		{ background-color: #FFFFFF}
+.subheads 				{ color: #FFFFFF; font-size: 18px; font-weight: bold;}
+.helpsubheads 		{ color: #333366; font-size: 18px; font-weight: bold;}
+.qheaders 				{ color: #333366; font-size: 18px; font-style: normal; font-weight: bold;}
+.qheaders1 				{ color: #333366; font-size: 18px; font-style: normal; font-weight: bold;}
+a.topicstraining 		{ color: #333366; font-weight: bold; text-decoration: none}/*000099*/
+a.topicstraining:hover 	{color: #333366; font-weight: bold;  text-decoration: underline; }/*000099*/
+.exit_text 				{ color: #000000; font-weight: normal;}
+.training_header_table 	{ background-color: #FFFFFF; border: 0}
+.training_button 		{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.training_button_over 	{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #093759 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.training_button_out 	{ color: #FFFFFF; background-color: #846E74;  margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.subject_banner 		{ color: #FFFFFF; background-color: #FF8800; margin: 3px 0 0 0 ; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20;}
+.training_button_top 	{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.training_button_over_top{color: #FF6633; background-color: #846E74; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #093759 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.training_button_out_top {color: #FFFFFF; background-color: #846E74;  margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.trainingfooter 		{ font-size: 9px; font-weight: bold; background-color: #ffffff}
+.feedback 				{ color: #FFFFFF; background-color: #92B1C4; font-weight: bold; font-size: 11px;}
+.feedback_header 		{ color: #FFFFFF; background-color: #92B1C4; font-size: 18px; font-style: normal; font-weight: bold;}
+.feedback P 			{ color: #0072C6; background-color: #D8E9F6; font-weight: bold; font-size: 11px ;}
+.copyrighttraining 		{ color: #333366; font-size: 9px; font-style: normal; font-weight: normal}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^ _QUIZ ^^^^^^^^^^^^^^^^^^^^*/
+a.quiz 					{ color: #333366; font-weight: bold; text-decoration: none}/*000099*/
+a.quiz:hover 			{ color: #333366; font-weight: bold; text-decoration: underline;}/*000099*/
+.quizheaders 			{ color: #000000; font-size: 30px; font-weight: bold; font-style: normal;}
+.quiz_button 			{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quiz_button_over 		{ color: #FF6633; background-color: #846E74; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #093759 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quiz_button_out 		{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quiz_submit_button 	{ color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quiz_submit_button_over{ color: #FF6633; background-color: #846E74; margin: 3px 0 0 0 ; text-decoration: none; border: 1px #093759 ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quiz_submit_button_out { color: #FFFFFF; background-color: #846E74; margin: 3px 0 0 0 ; border: 1px #29862B ridge; padding:2 4 2 4; font-size: 11px; font-weight: bold; height:20; cursor: hand}
+.quizincorrect 			{ COLOR: #cc0000; FONT-WEIGHT: bolder; }
+.quizcorrect 			{ COLOR: #009900; FONT-WEIGHT: bolder;}
+.quizsubheads 			{ font-size: 14px; font-weight: bold}
+/* ^^^^^^^^^^^^^^^^^^^^ LINE ^^^^^^^^^^^^^^^^^^^^*/
+.hr1 					{ size:8px; color: #dddddd; }
+/* ^^^^^^^^^^^^^^^^^^^^ _QANDA ^^^^^^^^^^^^^^^^^^^^*/
+.faqq {  font-size: 14px; font-weight: bolder; color: #CC0000}
+
+/* ^^^^^^^^^^^^^^^^^^^^ USER DASHBOARD ^^^^^^^^^^^^^^^^^^^^*/
+.ul.userdb {  margin-left: 20px}
+
+.headersuserdb {  font-size: 32px; font-weight: bold; font-style: normal; color: #AC4057}
+
+.headers1userdb {  font-size: 32px; font-weight: bold; font-style: normal; color: #AC4057}
+
+.subheadsuserdb {  font-size: 15px; font-weight: bold}
+
+.textuserdb {  font-size: 12px; }
+
+.correctuserdb { FONT-WEIGHT: bolder; FONT-SIZE: 13px; COLOR: #009900}
+
+.incorrectuserdb { FONT-WEIGHT: bolder; FONT-SIZE: 13px; COLOR: #cc0000 }
+
+.buttonzuserdb {text-decoration: none; background-color: #846E74; color: #FFFFFF; border: 1px #339933 ridge; SCROLLBAR-FACE-COLOR: #E0E0E0; SCROLLBAR-HIGHLIGHT-COLOR: #E0E0E0; SCROLLBAR-SHADOW-COLOR: #E0E0E0; SCROLLBAR-3DLIGHT-COLOR: #E0E0E0; SCROLLBAR-ARROW-COLOR: #0C2577; SCROLLBAR-TRACK-COLOR: #E0E0E0; SCROLLBAR-DARKSHADOW-COLOR: #E0E0E0; cursor: hand}
+.buttonzuserdb:hover{font-weight: bold; text-decoration: underline; background-color: #846E74; color: #FFFFFF; border: 1px #339933 ridge; SCROLLBAR-FACE-COLOR: #E0E0E0; SCROLLBAR-HIGHLIGHT-COLOR: #E0E0E0; SCROLLBAR-SHADOW-COLOR: #E0E0E0; SCROLLBAR-3DLIGHT-COLOR: #E0E0E0; SCROLLBAR-ARROW-COLOR: #0C2577; SCROLLBAR-TRACK-COLOR: #E0E0E0; SCROLLBAR-DARKSHADOW-COLOR: #E0E0E0; cursor: hand}
+
+.lotj_topuserdb {background-color: #000000}
+
+.table_normaluserdb {  background-color: #FFFFFF}
+
+.table_hluserdb {  background-color: #EEEEEE}
+

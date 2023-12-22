@@ -1,0 +1,1 @@
+<% IF Session("MM_Username") = "" OR isnull(Session("MM_Username")) = 1 OR Session("UserID") = "" OR isnull(Session("UserID")) = 1 THEN response.redirect "logout.asp"%>

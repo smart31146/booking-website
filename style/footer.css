@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 40px 0 46px;
+}
+
+.footer__left,
+.footer__right {
+  display: flex;
+  align-items: center;
+}
+
+.footer__left {
+  gap: 16px;
+}
+
+.footer .text {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  opacity: 0.7;
+}

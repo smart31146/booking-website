@@ -1,0 +1,36 @@
+
+<%
+' When creating a new database on 'lotjfp01'(grey box) change 'Initial Catalog' to the name of the database as shown in SQL Server Enterprise manager. Do not change any other parameters.
+
+'connection string for WebCentral
+'Connect = "Provider=sqloledb; Network Library=DBMSSOCN; Data Source=ICO-4493A,1433; Initial Catalog=BBP_Resmed; User ID=bbp_resmed; Password=PJXFW24gd4o9*;"
+'Connect = "Provider=sqloledb; Network Library=DBMSSOCN; Data Source=localhost,1433; Initial Catalog=BBP_ResMed; User ID=rsdatalogin; Password=breden99;"
+Connect = "Provider=sqloledb; Network Library=DBMSSOCN; Data Source=ICO-4493A,1433; Initial Catalog=BBP_Acmev2; User ID=bbp_Acmev2; Password=JOHBR200199;"
+set obj = Server.CreateObject("ADODB.Recordset")
+session.Timeout=1440
+
+BBPinfo3 = "Activity"
+BBPinfo3s = "Activities"
+
+If Session("userID") <> "" THEN
+	Session("userID") = Session("userID")
+	Session("firstname") = Session("firstname")
+	Session("lastname") = Session("lastname")
+	Session("id") = Session("id") 
+	Session("name") = Session("name")
+END IF
+
+if  request("bbp_search")<>"" then
+	Session("bbp_search") = request("bbp_search")
+ELSE
+	if not isEmpty(Session("bbp_search")) then
+		Session("bbp_search")=Session("bbp_search")
+	elseif Session("bbp_search") <> "" then
+		Session("bbp_search")=Session("bbp_search")	
+	else
+		Session("bbp_search")="Enter a keyword"
+	end if
+END IF
+
+
+ %>

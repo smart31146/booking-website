@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-bbp_twe_live_3_4_1_erq_2",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

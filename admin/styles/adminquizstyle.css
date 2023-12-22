@@ -1,0 +1,37 @@
+* {font-size: 100%; font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;}
+body,html,table {font-size: 11px; width:100%}
+BODY {SCROLLBAR-FACE-COLOR: #FFCC00; SCROLLBAR-HIGHLIGHT-COLOR: #FFCC00; SCROLLBAR-SHADOW-COLOR: #FF9900; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #FF9900; SCROLLBAR-TRACK-COLOR: #FFCC66; SCROLLBAR-DARKSHADOW-COLOR: #FFCC00; 
+background-color: #FFCC00; margin-left:0; margin-top: 0; width:100%}
+/* Background-color: #FFCC00 */
+
+textarea {font-size: 12px; color: #000000}
+table {border: 0; border-spacing:2; border-collapse:separate; margin-left: auto; margin-right: auto;}
+table .head {border-right: 1px solid #F2C162;
+	border-bottom: 1px solid #F2C162;
+	background: #FFCC66;
+	padding: 3px 3px 3px 6px;
+	font-weight:bold;
+	font-size:11px;
+	font-family:arial;
+	}
+	
+table table {width:90%; margin-left: auto; margin-right:auto}
+table table a {color:#000000}
+table table a:link {color:#000000}
+table table a :visited{color:#000000}
+
+form a {color:#000000}
+
+.heading {font-size: 16px; font-weight: bold; font-style: normal; color: #FFFFFF}
+.subheads {font-size: 12px; font-weight: bold}
+
+.formitem1 { background-color: #FFFFCC; font-size: 10px; color: #003300; border: 1px #000000 solid; SCROLLBAR-FACE-COLOR: #FFFFCC; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFCC; SCROLLBAR-SHADOW-COLOR: #FFFF99; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #FF9900; SCROLLBAR-TRACK-COLOR: #FFFFCC; SCROLLBAR-DARKSHADOW-COLOR: #FFCC66;}
+.formitem2 { background-color: #F0F0FF; font-size: 10px; color: #003300; border: 1px #000099 solid; SCROLLBAR-FACE-COLOR: #CCCCCC; SCROLLBAR-HIGHLIGHT-COLOR: #CCCCCC; SCROLLBAR-SHADOW-COLOR: #9999CC; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #000033; SCROLLBAR-TRACK-COLOR: #CCCCCC; SCROLLBAR-DARKSHADOW-COLOR: #9999FF;}
+.formitem_cor { background-color: #F0FFF0; font-size: 10px; color: #003300; border: 1px #009900 solid; SCROLLBAR-FACE-COLOR: #CCFFCC; SCROLLBAR-HIGHLIGHT-COLOR: #CCFFCC; SCROLLBAR-SHADOW-COLOR: #99FFCC; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #006600; SCROLLBAR-TRACK-COLOR: #CCFFCC; SCROLLBAR-DARKSHADOW-COLOR: #00FF66;}
+.formitem_inc { background-color: #FFF0F0; font-size: 10px; color: #003300; border: 1px #FF0000 solid; SCROLLBAR-FACE-COLOR: #FFCCFF; SCROLLBAR-HIGHLIGHT-COLOR: #FFCCFF; SCROLLBAR-SHADOW-COLOR: #FFCC99; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #CC3300; SCROLLBAR-TRACK-COLOR: #FFCCFF; SCROLLBAR-DARKSHADOW-COLOR: #FF99CC;}
+.menutext { font-size: 12px; font-weight: bold; color: #FFFFFF}
+.menutext a:link , .menutext a:visited {text-decoration: none;}
+.table_normal {  background-color: #FFCC66}
+.table_hl { background-color: #FFFF33;}
+.quiz_button { background-color: #FFFF66; font-size: 9px; color: #003300; border: 1px solid #FF6600; SCROLLBAR-FACE-COLOR: #FFFFCC; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFCC; SCROLLBAR-SHADOW-COLOR: #FFFF99; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR: #FF9900; SCROLLBAR-TRACK-COLOR: #FFFFCC; SCROLLBAR-DARKSHADOW-COLOR: #FFCC66; ; cursor: hand}
+.page_head {font-size: 9px; background-color: #FFFF99; text-align: right}

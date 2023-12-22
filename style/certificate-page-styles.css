@@ -1,0 +1,159 @@
+/* this container is added in print page mode only */
+.print-heading {
+  display: none;
+}
+
+.certificate-page {
+  padding: 0 38px 0 8px;
+}
+
+.certificate-page__content {
+  gap: 39px;
+  justify-content: space-between;
+}
+
+.certificate-page__left,
+.certificate-page__right {
+  flex: 1;
+  text-align: left;
+}
+
+.certificate-page__right {
+  padding-top: 44px;
+}
+
+.certificate-page__right__buttons {
+  gap: 12px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.certificate-page__right__buttons a {
+  padding: 13px 25px;
+  height: auto;
+}
+
+.certificate-page__right__buttons .LMS-btns {
+  margin-top: 5px;
+}
+
+.print-btn {
+  background: #5c7981;
+}
+
+.print-btn i {
+  font-size: 16px;
+}
+
+.completed-date {
+  padding: 5px 16px 9px;
+}
+
+.completed-date span {
+  color: #687992;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.score-table {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.score-table.table-striped > tbody > tr:nth-of-type(odd) > * {
+  box-shadow: inset 0 0 0 9999px rgb(104, 121, 146, 0.1);
+}
+
+.score-table td {
+  padding: 13px 16px;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.score-table .result {
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
+}
+
+.score-table .failed i {
+  margin-right: 9px;
+}
+
+.score-label {
+  color: #687992;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.score-label.tiny {
+  font-size: 12px;
+}
+
+.percentage {
+  font-weight: 700;
+  font-family: Inter;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.percentage i {
+  font-size: 34px;
+  /* color: #219653; */
+}
+
+.percent {
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mark {
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0.24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mark.pass {
+  background-color: rgb(33, 150, 83, 0.2);
+}
+
+.mark.fail {
+  background-color: #ffe9e9;
+}
+
+.hr.separator {
+  width: 200px;
+  height: 1px;
+  background: #687992;
+  margin-top: 8px;
+}
+
+.fail {
+  color: #d40f0f;
+}
+
+.pass {
+  color: #219653;
+}
